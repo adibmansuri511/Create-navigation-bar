@@ -1,0 +1,140 @@
+* {
+    /* margin: 0px; */
+    /* padding: 0px; */
+    box-sizing: border-box;
+}
+
+header .whiteHeader {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    border-style: solid;
+    border-color: #d5d0d0;
+    border-width: 1px 1px 0px 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header .whiteHeader .icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 65px;
+}
+
+.whiteHeader form select {
+    margin-left: 3px;
+    border: none;
+}
+
+.whiteHeader .contactInfo {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 125px;
+    /* font-weight: 500; */
+}
+
+.contactInfo a {
+    color: #cf0404;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.contactInfo .quoteList {
+    color: #cf0404;
+    margin-left: 5px;
+}
+
+.contactInfo .login {
+    margin-left: 5px;
+}
+
+header .colorHeader {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    background-color: #cf0404;
+}
+
+.colorHeader .logo {
+    display: flex;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.colorHeader .logo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.colorHeader .menus {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.colorHeader .menus .searchInput {
+    display: flex;
+    height: 35px;
+    width: 225px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+.colorHeader .menus .searchInput input {
+    height: 33px;
+    width: 100%;
+    border: none;
+    font-size: 1.15rem;
+}
+
+.searchInput:focus-visible {
+    /* outline: 2px solid black; */
+    outline-offset: 0px !important;
+}
+
+input:focus-visible {
+    outline: none;
+    /* outline-offset: 0px; */
+}
+
+input::placeholder {
+    font-size: 1.15rem;
+    color: #999494;
+}
+
+
+
+.menus ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.menus ul li {
+    padding: 0px 15px;
+}
+
+.menus ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
